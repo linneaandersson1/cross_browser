@@ -1,11 +1,11 @@
-.footer { /* my code generates a lot of errors in the index.css*/
-    // max-width: 100%;
+.footer__container {
     display: grid;
     grid-template-columns: repeat(13, 1fr);
     grid-template-rows: 1fr;
     column-gap: 15px;
     padding-top: 30px;
     padding-bottom: 20px;
+    background-color: gray;
 
     &__logo {
         grid-column: 1 / 2;

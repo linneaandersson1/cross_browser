@@ -431,6 +431,82 @@ main {
   text-align: end;
 }
 
+.footer {
+  /* my code generates a lot of errors in the index.css*/
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[13];
+      grid-template-columns: repeat(13, 1fr);
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  -webkit-column-gap: 15px;
+          column-gap: 15px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: gray;
+  /* again "ul(user agent stylesheet) padding-inline-start: 40px;" on my list div, so it doesn't center, don't know why (used reset.css instead, seems to be solved)*/
+}
+
+.footer__logo {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1 / 2;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1 / 2;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.footer__list {
+  /*not sure when I should use flex/grid, should I only use one or can I mix them whenever I want?*/
+  -ms-grid-column: 12;
+  -ms-grid-column-span: 2;
+  grid-column: 12 / 14;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1 / 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.footer__li {
+  list-style: none;
+  margin-left: 15px;
+}
+
+.footer__link {
+  /*h4*/
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 23px;
+  /* identical to box height */
+  letter-spacing: -0.346154px;
+  color: 111111;
+  /* does not work*/
+}
+
+.footer__link:hover {
+  color: pink;
+  /*does not work*/
+}
+
+.footer__logo {
+  background-color: pink;
+}
+
 body {
   margin-left: 20.5vw;
   margin-right: 20.5vw;

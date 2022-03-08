@@ -10,6 +10,7 @@
           column-gap: 15px;
   padding-top: 30px;
   padding-bottom: 20px;
+  background-color: gray;
   /* again "ul(user agent stylesheet) padding-inline-start: 40px;" on my list div, so it doesn't center, don't know why (used reset.css instead, seems to be solved)*/
 }
 
