@@ -1,0 +1,79 @@
+.projects__header {
+    margin-top: 4vw;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 2fr 1fr;
+}
+
+// .header__text {
+//     background-color: magenta;
+    
+// }
+
+.header__heading {
+    max-width: 500px;
+    margin-bottom: 2vw;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    /* or 138% */
+    color: #111111;
+}
+
+.header__paragraph {
+    max-width: 650px;
+    margin-bottom: 1vw;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    color: #111111;
+}
+
+.header__column {
+    margin-top: 2vw;
+}
+
+.header__row {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-rows: 1fr;
+    // grid-gap: 15px;
+    // min-height: 100%;
+    margin-bottom: 15px;
+}
+
+.header__greyh2 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.header__blackh2 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+    color: #111111;
+}
+
+.header__line {
+    background: #D8D8D8;
+    margin-bottom: 15px;
+    mix-blend-mode: normal;
+    opacity: 0.3;
+    border: 1px solid #979797;
+    box-sizing: border-box;
+}

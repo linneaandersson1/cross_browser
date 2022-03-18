@@ -1,0 +1,36 @@
+.main__image-grid {
+    margin-top: 5vw;
+    margin-bottom: 7vw;
+}
+
+.main__paragraph {
+    margin-bottom: 3vw;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.main__images {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+.main__img-mount {
+    margin-right: 30px;
+}
+
+.main__img-flower {
+    margin-right: 30px;
+}
+
+// .main__img-warderobe {
+//     grid-row: 2 / 3;
+//     grid-column: 3 / 4;
+// }
