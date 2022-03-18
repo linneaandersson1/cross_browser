@@ -69,6 +69,65 @@
   /*does not work*/
 }
 
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.header__heading {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 55px;
+  /* or 138% */
+  color: #111111;
+}
+
+.heading__paragraph {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: #111111;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.header__form {
+  background-color: beige;
+}
+
+.form__container {
+  margin-bottom: 46px;
+  background-color: pink;
+}
+
+.form__enter-info {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  min-width: 300px;
+  border-bottom: 1px solid #979797;
+  padding-bottom: 16px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  color: #111111;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+
 .footer__container {
   min-height: 4vw;
   margin-top: 3vw;
