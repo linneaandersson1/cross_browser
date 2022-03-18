@@ -61,8 +61,7 @@
   line-height: 23px;
   /* identical to box height */
   letter-spacing: -0.346154px;
-  color: 111111;
-  /* does not work*/
+  color: #111111;
 }
 
 .nav__link:hover {
